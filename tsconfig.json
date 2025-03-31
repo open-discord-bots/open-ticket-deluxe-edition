@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "rootDir":"./",
+        "outDir": "./dist/",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+
+        "typeRoots": ["./node_modules/@types","./plugins/*/"],
+        "noEmit": false,
+        "allowImportingTsExtensions": false,
+
+        "allowJs": false,
+        "checkJs": false,
+        "declaration": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["./src/*","./src/**/*","./plugins/*","./plugins/**/*"]
+}
